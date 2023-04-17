@@ -1,0 +1,45 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  width: 300px;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 24px;
+  padding: 16px;
+  background-color: #0078d7;
+  color: white;
+}
+
+h2 {
+  font-size: 18px;
+  padding: 8px 16px;
+}
+
+#current-message, #generated-reply {
+  padding: 0 16px 16px;
+}
+
+button {
+  display: inline-block;
+  margin-right: 8px;
+  padding: 8px 16px;
+  background-color: #0078d7;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #005a9e;
+}
+
